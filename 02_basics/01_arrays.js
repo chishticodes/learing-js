@@ -2,3 +2,37 @@
 
 
 const myArr = [0,1,2,3,4,5]
+// array make shallow copy
+// shallow copy is when an object share same reference poin as original value meaning if the obect will change original array will also change
+
+const myHeros = ['Ammi', 'good friends', 'teachers']
+// console.log(myHeros[0]);
+
+
+// Array Methods
+
+myArr.push(7);
+// console.log(myArr);
+myArr.pop();
+// console.log(myArr);
+myArr.unshift(9);
+// console.log(myArr);
+myArr.shift();
+// console.log(myArr);
+
+// console.log(myArr.includes(5));
+// console.log(myArr.indexOf(5));
+
+const newArr = myArr.join(); //it converts array in string
+
+// console.log(myArr);
+// console.log(newArr);
+// console.log(typeof(newArr));
+
+
+// Slice and Splice
+
+console.log("A", myArr);
+
+const myn1 = myHeros.slice(1,3);
+console.log(myn1);

@@ -42,3 +42,5 @@ console.log("B", myArr);
 const myn2 = myArr.splice(1,3);
 console.log(myn2);
 console.log("C", myArr);
+
+// the main difference between slice and splice method is that splice change the original way that only the those elements remain which are not selected in the range of splice

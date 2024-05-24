@@ -50,11 +50,43 @@ const users = [
 
 users[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty("islogged"));
+// console.log(tinderUser.hasOwnProperty("islogged"));
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+
+// course.courseInstructor
+
+const{courseInstructor: instructor} = course // this is called destucturing
+console.log(instructor);
+
+
+{
+    "name": "bilal",
+    "price": "free",
+    "coursenane": "JS in hindi"
+}
+
+
+
+
+
+
+
+
+
+
+
+

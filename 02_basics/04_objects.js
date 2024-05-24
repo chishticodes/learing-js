@@ -73,11 +73,11 @@ const{courseInstructor: instructor} = course // this is called destucturing
 console.log(instructor);
 
 
-{
-    "name": "bilal",
-    "price": "free",
-    "coursenane": "JS in hindi"
-}
+// {
+//     "name": "bilal",
+//     "price": "free",
+//     "coursenane": "JS in hindi"
+// }
 
 
 

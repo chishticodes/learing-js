@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chai Aur Code</title>
+    <style>
+        .bg-clr{
+            background-color: #212121;
+            color: #ffffff;
+        }
+    </style>
 </head>
-<body>
+<body class="bg-clr">
     
-</body>
-</html>
+
+    <script>
+        const div = document.createElement('div')
+        console.log(div);
+        div.className= 'main'
+        div.id = Math.random()*10+1
+        div.setAttribute('title','generated title')
+        div.innerText = "Chai aur code"
+        console.log("hello");
+        div.style.color= "white"
+
+        document.body.appendChild(div)
+    </script>

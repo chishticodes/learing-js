@@ -21,8 +21,10 @@
         div.id = Math.random()*10+1
         div.setAttribute('title','generated title')
         div.innerText = "Chai aur code"
-        console.log("hello");
-        div.style.color= "white"
+        div.style.backgroundColor= "green"
+        div.style.padding = "15px"
+        const addText = document.createTextNode("Chai aur Code")
+        div.appendChild(addText)
 
         document.body.appendChild(div)
     </script>
